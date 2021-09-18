@@ -1,11 +1,11 @@
-var init = function(subfunction)
+function init(subfunction1)
 {
-    console.log(subfunction())
+    document.write(subfunction1())
 }
 
-var test = function()
+function test()
 {
-    return "test";
+    return "test1";
 }
 
 init(test);
